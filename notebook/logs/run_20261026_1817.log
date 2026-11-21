@@ -1,0 +1,535 @@
+2026-10-26 18:17:18,966 | INFO | Configuration saved.
+2026-10-26 18:17:19,856 | WARNING | [1/3] https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz
+2026-10-26 18:17:23,122 | WARNING | [2/3] https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz
+2026-10-26 18:17:29,371 | WARNING | [3/3] https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz
+2026-10-26 18:17:38,379 | ERROR | FAILED: https://cbioportal-datahub.s3.amazonaws.com/laml_tcga_pan_can_atlas_2018.tar.gz
+  -> place the file manually at: /content/drive/MyDrive/Bengisu_HOX_AML/00_raw/tcga/laml_tcga_pan_can_atlas_2018.tar.gz
+2026-10-26 18:17:38,609 | WARNING | [1/3] https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz
+2026-10-26 18:17:41,816 | WARNING | [2/3] https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz
+2026-10-26 18:17:48,029 | WARNING | [3/3] https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz
+2026-10-26 18:17:57,030 | ERROR | FAILED: https://cbioportal-datahub.s3.amazonaws.com/aml_ohsu_2022.tar.gz
+  -> place the file manually at: /content/drive/MyDrive/Bengisu_HOX_AML/00_raw/beataml/aml_ohsu_2022.tar.gz
+2026-10-26 18:17:57,253 | WARNING | [1/3] https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz
+2026-10-26 18:18:00,482 | WARNING | [2/3] https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz
+2026-10-26 18:18:06,711 | WARNING | [3/3] https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz -> 403 Client Error: Forbidden for url: https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz
+2026-10-26 18:18:15,712 | ERROR | FAILED: https://cbioportal-datahub.s3.amazonaws.com/aml_target_2018_pub.tar.gz
+  -> place the file manually at: /content/drive/MyDrive/Bengisu_HOX_AML/00_raw/target/aml_target_2018_pub.tar.gz
+2026-10-26 18:18:15,739 | INFO | cached  TCGA.LAML.HiSeqV2.gz
+2026-10-26 18:18:15,740 | INFO | cached  LAML_clinicalMatrix.tsv
+2026-10-26 18:18:20,039 | INFO | TCGA via Xena: (20530, 173)
+2026-10-26 18:18:21,577 | INFO | TCGA via cBioPortal API: clinical (200, 42), mutations (7051, 4); clinical fields: ['CYTOGENETICS', 'CYTOGENETIC_CODE_OTHER', 'OS_MONTHS', 'OS_STATUS', 'RISK_CYTO', 'RISK_MOLECULAR']
+2026-10-26 18:18:21,593 | INFO | cached  beataml_probit_curve_fits_v4_dbgap.txt
+2026-10-26 18:18:21,595 | INFO | cached  beataml_waves1to4_norm_exp_dbgap.txt
+2026-10-26 18:18:21,596 | INFO | cached  beataml_wv1to4_clinical.xlsx
+2026-10-26 18:18:21,599 | INFO | cached  beataml_wes_wv1to4_mutations_dbgap.txt
+2026-10-26 18:18:21,601 | INFO | cached  beataml_drug_families.xlsx
+2026-10-26 18:18:24,301 | INFO | BeatAML AUC table (63395, 26); columns: ['dbgap_subject_id', 'dbgap_dnaseq_sample', 'dbgap_rnaseq_sample', 'inhibitor', 'type', 'status', 'paper_inclusion', 'min_conc', 'max_conc', 'intercept', 'beta', 'beta_z']
+2026-10-26 18:18:24,313 | INFO | CDK9-inhibitor compounds present in BeatAML panel: ['AT7519', 'Flavopiridol', 'Roscovitine (CYC-202)', 'SNS-032 (BMS-387032)']
+2026-10-26 18:19:25,409 | INFO | gse14468: expr (24442, 526); characteristic fields: ['title', 'source', 'disease state', 'cell type', 'idh1', 'idh2', 'gender', 'age', 'score', 'risk', 'cebpa', 'karyotype', 'npm1', 'flt3 itd mutation', 'flt3 tkd mutation', 'n-ras mutation', 'k-ras mutation', 'evi1 expression', 'cebpa mutation', 'char_free']
+2026-10-26 18:20:06,340 | INFO | gse37642_GPL96: expr (14208, 422); characteristic fields: ['title', 'source', 'tissue', 'fab', 'age', 'runx1-runx1t1_fusion', 'runx1_mutation', 'overall survival (days)', 'life status']
+2026-10-26 18:20:06,658 | INFO | gse37642_GPL97: expr (11991, 422); characteristic fields: ['title', 'source', 'tissue', 'fab', 'age']
+2026-10-26 18:20:06,974 | INFO | gse37642_GPL570: expr (21290, 140); characteristic fields: ['title', 'source', 'tissue', 'fab', 'age', 'runx1-runx1t1_fusion', 'runx1_mutation', 'overall survival (days)', 'life status']
+2026-10-26 18:20:07,215 | WARNING | https://depmap.org/portal/api/download/files returned HTML, not a file index
+2026-10-26 18:20:07,262 | WARNING | https://depmap.org/portal/download/api/downloads returned HTML, not a file index
+2026-10-26 18:20:07,264 | ERROR | DepMap index failed: no usable DepMap file index. Download CRISPRGeneEffect.csv, Model.csv, OmicsExpressionProteinCodingGenesTPMLogp1.csv and PRISM AUC from depmap.org/portal/download into /content/drive/MyDrive/Bengisu_HOX_AML/00_raw/depmap
+2026-10-26 18:20:07,268 | INFO | DepMap files: {'gene_effect': 'CRISPRGeneEffect.csv', 'model': 'Model.csv', 'expr': 'OmicsExpressionProteinCodingGenesTPMLogp1.csv'}
+2026-10-26 18:20:07,270 | INFO | cached  GDSC2_fitted_dose_response_27Oct23.xlsx
+2026-10-26 18:20:07,451 | INFO | TCGA       n= 173 genes=20530 groups={'Other': 115, 'NPM1mut': 48, 'KMT2Ar': 9, nan: 1}
+2026-10-26 18:20:25,584 | INFO | BeatAML clinical: 698 RNA-seq specimens -> 608 AML patients (one specimen each)
+2026-10-26 18:20:27,337 | INFO | BeatAML    n= 591 genes=22843 groups={'Other': 392, 'NPM1mut': 154, 'KMT2Ar': 38, nan: 4, 'NPM1mut+KMT2Ar': 3}
+2026-10-26 18:20:27,455 | INFO | GSE14468   n= 461 genes=24442 groups={'Other': 311, 'NPM1mut': 140, 'KMT2Ar': 10}
+2026-10-26 18:20:27,496 | INFO | GSE37642_GPL96 n= 422 genes=14208 groups={nan: 422}
+2026-10-26 18:20:27,500 | WARNING | gse37642_GPL97: only 1/7 HOX core genes on GPL97 — excluded (e.g. U133B duplicates the U133A patients)
+2026-10-26 18:20:27,531 | INFO | GSE37642_GPL570 n= 140 genes=21290 groups={nan: 140}
+2026-10-26 18:20:28,003 | INFO | table   Table1_cohort_summary.csv  (5, 12)
+2026-10-26 18:20:29,610 | INFO | table   QC_gene_availability.csv  (5, 12)
+2026-10-26 18:20:34,602 | INFO | maxp pruned
+2026-10-26 18:20:34,626 | INFO | cmap pruned
+2026-10-26 18:20:34,631 | INFO | kern dropped
+2026-10-26 18:20:34,632 | INFO | post pruned
+2026-10-26 18:20:34,635 | INFO | FFTM dropped
+2026-10-26 18:20:34,637 | INFO | GPOS pruned
+2026-10-26 18:20:34,642 | INFO | GSUB pruned
+2026-10-26 18:20:34,650 | INFO | glyf pruned
+2026-10-26 18:20:34,652 | INFO | Added gid0 to subset
+2026-10-26 18:20:34,654 | INFO | Added first four glyphs to subset
+2026-10-26 18:20:34,655 | INFO | Closing glyph list over 'MATH': 38 glyphs before
+2026-10-26 18:20:34,657 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,660 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,663 | INFO | Closed glyph list over 'MATH': 38 glyphs after
+2026-10-26 18:20:34,664 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,665 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,667 | INFO | Closing glyph list over 'GSUB': 38 glyphs before
+2026-10-26 18:20:34,668 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,670 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,675 | INFO | Closed glyph list over 'GSUB': 38 glyphs after
+2026-10-26 18:20:34,676 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,678 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,679 | INFO | Closing glyph list over 'glyf': 38 glyphs before
+2026-10-26 18:20:34,681 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,684 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,685 | INFO | Closed glyph list over 'glyf': 38 glyphs after
+2026-10-26 18:20:34,687 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'L', 'M', 'P', 'S', 'T', 'a', 'e', 'eight', 'five', 'four', 'g', 'i', 'l', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'x', 'zero']
+2026-10-26 18:20:34,688 | INFO | Glyph IDs:   [0, 1, 2, 3, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 47, 48, 51, 54, 55, 66, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 91, 3228]
+2026-10-26 18:20:34,690 | INFO | Retaining 38 glyphs
+2026-10-26 18:20:34,692 | INFO | head subsetting not needed
+2026-10-26 18:20:34,694 | INFO | hhea subsetting not needed
+2026-10-26 18:20:34,695 | INFO | maxp subsetting not needed
+2026-10-26 18:20:34,696 | INFO | OS/2 subsetting not needed
+2026-10-26 18:20:34,703 | INFO | hmtx subsetted
+2026-10-26 18:20:34,706 | INFO | cmap subsetted
+2026-10-26 18:20:34,707 | INFO | fpgm subsetting not needed
+2026-10-26 18:20:34,708 | INFO | prep subsetting not needed
+2026-10-26 18:20:34,709 | INFO | cvt  subsetting not needed
+2026-10-26 18:20:34,710 | INFO | loca subsetting not needed
+2026-10-26 18:20:34,711 | INFO | post subsetted
+2026-10-26 18:20:34,712 | INFO | gasp subsetting not needed
+2026-10-26 18:20:34,713 | INFO | MATH subsetted
+2026-10-26 18:20:34,716 | INFO | GDEF subsetted
+2026-10-26 18:20:34,735 | INFO | GPOS subsetted
+2026-10-26 18:20:34,738 | INFO | GSUB subsetted
+2026-10-26 18:20:34,740 | INFO | name subsetting not needed
+2026-10-26 18:20:34,745 | INFO | glyf subsetted
+2026-10-26 18:20:34,746 | INFO | head pruned
+2026-10-26 18:20:34,748 | INFO | OS/2 Unicode ranges pruned: [0, 38]
+2026-10-26 18:20:34,749 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:20:34,751 | INFO | glyf pruned
+2026-10-26 18:20:34,752 | INFO | GDEF pruned
+2026-10-26 18:20:34,754 | INFO | GPOS pruned
+2026-10-26 18:20:34,756 | INFO | GSUB pruned
+2026-10-26 18:20:34,764 | INFO | name pruned
+2026-10-26 18:20:36,044 | INFO | figure  SuppFig_QC_distributions
+2026-10-26 18:21:01,876 | INFO | table   Table2_HOX_calling_stats.csv  (5, 16)
+2026-10-26 18:21:13,957 | INFO | maxp pruned
+2026-10-26 18:21:13,972 | INFO | cmap pruned
+2026-10-26 18:21:13,974 | INFO | kern dropped
+2026-10-26 18:21:13,977 | INFO | post pruned
+2026-10-26 18:21:13,978 | INFO | FFTM dropped
+2026-10-26 18:21:13,982 | INFO | GPOS pruned
+2026-10-26 18:21:13,987 | INFO | GSUB pruned
+2026-10-26 18:21:13,993 | INFO | glyf pruned
+2026-10-26 18:21:13,995 | INFO | Added gid0 to subset
+2026-10-26 18:21:13,997 | INFO | Added first four glyphs to subset
+2026-10-26 18:21:13,999 | INFO | Closing glyph list over 'MATH': 58 glyphs before
+2026-10-26 18:21:14,000 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,003 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228]
+2026-10-26 18:21:14,005 | INFO | Closed glyph list over 'MATH': 64 glyphs after
+2026-10-26 18:21:14,007 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,008 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:21:14,009 | INFO | Closing glyph list over 'GSUB': 64 glyphs before
+2026-10-26 18:21:14,011 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,012 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:21:14,017 | INFO | Closed glyph list over 'GSUB': 64 glyphs after
+2026-10-26 18:21:14,018 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,020 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:21:14,021 | INFO | Closing glyph list over 'glyf': 64 glyphs before
+2026-10-26 18:21:14,022 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,024 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:21:14,026 | INFO | Closed glyph list over 'glyf': 64 glyphs after
+2026-10-26 18:21:14,026 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'y', 'z', 'zero']
+2026-10-26 18:21:14,028 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 69, 70, 71, 72, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 93, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:21:14,029 | INFO | Retaining 64 glyphs
+2026-10-26 18:21:14,031 | INFO | head subsetting not needed
+2026-10-26 18:21:14,032 | INFO | hhea subsetting not needed
+2026-10-26 18:21:14,033 | INFO | maxp subsetting not needed
+2026-10-26 18:21:14,034 | INFO | OS/2 subsetting not needed
+2026-10-26 18:21:14,040 | INFO | hmtx subsetted
+2026-10-26 18:21:14,043 | INFO | cmap subsetted
+2026-10-26 18:21:14,045 | INFO | fpgm subsetting not needed
+2026-10-26 18:21:14,047 | INFO | prep subsetting not needed
+2026-10-26 18:21:14,048 | INFO | cvt  subsetting not needed
+2026-10-26 18:21:14,049 | INFO | loca subsetting not needed
+2026-10-26 18:21:14,050 | INFO | post subsetted
+2026-10-26 18:21:14,050 | INFO | gasp subsetting not needed
+2026-10-26 18:21:14,051 | INFO | MATH subsetted
+2026-10-26 18:21:14,056 | INFO | GDEF subsetted
+2026-10-26 18:21:14,076 | INFO | GPOS subsetted
+2026-10-26 18:21:14,079 | INFO | GSUB subsetted
+2026-10-26 18:21:14,079 | INFO | name subsetting not needed
+2026-10-26 18:21:14,083 | INFO | glyf subsetted
+2026-10-26 18:21:14,085 | INFO | head pruned
+2026-10-26 18:21:14,087 | INFO | OS/2 Unicode ranges pruned: [0, 38]
+2026-10-26 18:21:14,088 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:21:14,090 | INFO | glyf pruned
+2026-10-26 18:21:14,092 | INFO | GDEF pruned
+2026-10-26 18:21:14,093 | INFO | GPOS pruned
+2026-10-26 18:21:14,094 | INFO | GSUB pruned
+2026-10-26 18:21:14,113 | INFO | name pruned
+2026-10-26 18:21:19,277 | INFO | figure  Fig1_HOX_score_heatmaps
+2026-10-26 18:21:22,554 | INFO | table   Table3a_HOXhigh_by_genotype.csv  (10, 7)
+2026-10-26 18:21:22,561 | INFO | Pooled HOX-high fraction in NPM1mut: 98.0% (95% CI 86.8–99.7), I2=65%
+2026-10-26 18:21:22,567 | INFO | Pooled HOX-high fraction in KMT2Ar: 85.9% (95% CI 73.4–93.1), I2=0%
+2026-10-26 18:21:22,571 | INFO | Pooled HOX-high fraction in Other: 42.7% (95% CI 34.2–51.7), I2=83%
+2026-10-26 18:21:24,726 | INFO | maxp pruned
+2026-10-26 18:21:24,740 | INFO | cmap pruned
+2026-10-26 18:21:24,741 | INFO | kern dropped
+2026-10-26 18:21:24,742 | INFO | post pruned
+2026-10-26 18:21:24,744 | INFO | FFTM dropped
+2026-10-26 18:21:24,747 | INFO | GPOS pruned
+2026-10-26 18:21:24,754 | INFO | GSUB pruned
+2026-10-26 18:21:24,765 | INFO | glyf pruned
+2026-10-26 18:21:24,766 | INFO | Added gid0 to subset
+2026-10-26 18:21:24,768 | INFO | Added first four glyphs to subset
+2026-10-26 18:21:24,769 | INFO | Closing glyph list over 'MATH': 51 glyphs before
+2026-10-26 18:21:24,771 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'w', 'y', 'zero']
+2026-10-26 18:21:24,774 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92]
+2026-10-26 18:21:24,776 | INFO | Closed glyph list over 'MATH': 51 glyphs after
+2026-10-26 18:21:24,778 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'w', 'y', 'zero']
+2026-10-26 18:21:24,779 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92]
+2026-10-26 18:21:24,781 | INFO | Closing glyph list over 'GSUB': 51 glyphs before
+2026-10-26 18:21:24,783 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'w', 'y', 'zero']
+2026-10-26 18:21:24,785 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92]
+2026-10-26 18:21:24,792 | INFO | Closed glyph list over 'GSUB': 54 glyphs after
+2026-10-26 18:21:24,794 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'fi', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'w', 'y', 'zero']
+2026-10-26 18:21:24,796 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92, 5038, 5039, 5041]
+2026-10-26 18:21:24,798 | INFO | Closing glyph list over 'glyf': 54 glyphs before
+2026-10-26 18:21:24,799 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'fi', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'w', 'y', 'zero']
+2026-10-26 18:21:24,801 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92, 5038, 5039, 5041]
+2026-10-26 18:21:24,802 | INFO | Closed glyph list over 'glyf': 54 glyphs after
+2026-10-26 18:21:24,803 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'c', 'e', 'eight', 'f', 'fi', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'percent', 'plus', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uniFB00', 'uniFB03', 'w', 'y', 'zero']
+2026-10-26 18:21:24,805 | INFO | Glyph IDs:   [0, 1, 2, 3, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 36, 37, 38, 40, 42, 43, 46, 47, 48, 49, 50, 51, 54, 55, 59, 66, 68, 70, 72, 73, 74, 75, 76, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 92, 5038, 5039, 5041]
+2026-10-26 18:21:24,808 | INFO | Retaining 54 glyphs
+2026-10-26 18:21:24,810 | INFO | head subsetting not needed
+2026-10-26 18:21:24,811 | INFO | hhea subsetting not needed
+2026-10-26 18:21:24,813 | INFO | maxp subsetting not needed
+2026-10-26 18:21:24,814 | INFO | OS/2 subsetting not needed
+2026-10-26 18:21:24,820 | INFO | hmtx subsetted
+2026-10-26 18:21:24,823 | INFO | cmap subsetted
+2026-10-26 18:21:24,825 | INFO | fpgm subsetting not needed
+2026-10-26 18:21:24,826 | INFO | prep subsetting not needed
+2026-10-26 18:21:24,828 | INFO | cvt  subsetting not needed
+2026-10-26 18:21:24,830 | INFO | loca subsetting not needed
+2026-10-26 18:21:24,832 | INFO | post subsetted
+2026-10-26 18:21:24,833 | INFO | gasp subsetting not needed
+2026-10-26 18:21:24,834 | INFO | MATH subsetted
+2026-10-26 18:21:24,838 | INFO | GDEF subsetted
+2026-10-26 18:21:24,861 | INFO | GPOS subsetted
+2026-10-26 18:21:24,864 | INFO | GSUB subsetted
+2026-10-26 18:21:24,865 | INFO | name subsetting not needed
+2026-10-26 18:21:24,868 | INFO | glyf subsetted
+2026-10-26 18:21:24,869 | INFO | head pruned
+2026-10-26 18:21:24,871 | INFO | OS/2 Unicode ranges pruned: [0]
+2026-10-26 18:21:24,872 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:21:24,874 | INFO | glyf pruned
+2026-10-26 18:21:24,875 | INFO | GDEF pruned
+2026-10-26 18:21:24,876 | INFO | GPOS pruned
+2026-10-26 18:21:24,878 | INFO | GSUB pruned
+2026-10-26 18:21:24,894 | INFO | name pruned
+2026-10-26 18:21:25,675 | INFO | figure  Fig2a_genotype_composition
+2026-10-26 18:21:26,793 | INFO | table   Table3b_Other_HOXhigh_mutation_enrichment_by_cohort.csv  (64, 9)
+2026-10-26 18:21:27,185 | INFO | table   Table3c_Other_HOXhigh_mutation_enrichment_combined.csv  (34, 4)
+2026-10-26 18:21:28,090 | INFO | table   Table3d_HOXhigh_multivariable_logistic.csv  (23, 7)
+2026-10-26 18:21:29,753 | INFO | TCGA/all: hi=121 lo=52; FDR<0.05 & |LFC|>1: 852
+2026-10-26 18:21:30,679 | INFO | TCGA/canonical: hi=57 lo=52; FDR<0.05 & |LFC|>1: 1344
+2026-10-26 18:21:33,317 | INFO | TCGA/other: hi=63 lo=52; FDR<0.05 & |LFC|>1: 1037
+2026-10-26 18:21:34,660 | INFO | BeatAML/all: hi=324 lo=267; FDR<0.05 & |LFC|>1: 508
+2026-10-26 18:21:37,869 | INFO | BeatAML/canonical: hi=178 lo=267; FDR<0.05 & |LFC|>1: 1000
+2026-10-26 18:21:40,429 | INFO | BeatAML/other: hi=144 lo=248; FDR<0.05 & |LFC|>1: 406
+2026-10-26 18:21:41,993 | INFO | GSE14468/all: hi=272 lo=189; FDR<0.05 & |LFC|>1: 92
+2026-10-26 18:21:43,943 | INFO | GSE14468/canonical: hi=150 lo=189; FDR<0.05 & |LFC|>1: 175
+2026-10-26 18:21:47,066 | INFO | GSE14468/other: hi=122 lo=189; FDR<0.05 & |LFC|>1: 60
+2026-10-26 18:21:48,641 | INFO | GSE37642_GPL96/all: hi=286 lo=136; FDR<0.05 & |LFC|>1: 36
+2026-10-26 18:21:48,645 | INFO | GSE37642_GPL96/canonical: skipped (HOX-high 0, HOX-low 136)
+2026-10-26 18:21:48,648 | INFO | GSE37642_GPL96/other: skipped (HOX-high 0, HOX-low 0)
+2026-10-26 18:21:49,595 | INFO | GSE37642_GPL570/all: hi=70 lo=70; FDR<0.05 & |LFC|>1: 61
+2026-10-26 18:21:49,599 | INFO | GSE37642_GPL570/canonical: skipped (HOX-high 0, HOX-low 70)
+2026-10-26 18:21:49,603 | INFO | GSE37642_GPL570/other: skipped (HOX-high 0, HOX-low 0)
+2026-10-26 18:21:51,233 | INFO | table   Table4a_crosscohort_t_correlation.csv  (5, 5)
+2026-10-26 18:21:51,915 | INFO | table   Table4b_crosscohort_top200_overlap.csv  (20, 7)
+2026-10-26 18:21:54,620 | INFO | table   Table4c_meta_HOXhigh_program.csv  (7718, 5)
+2026-10-26 18:21:58,170 | INFO | Reproducible HOX-high program: 105 up / 135 down (non-scoring up used: 92)
+2026-10-26 18:21:58,817 | INFO | table   Table5a_canonical_vs_other_program_concordance.csv  (3, 5)
+2026-10-26 18:22:05,430 | INFO | maxp pruned
+2026-10-26 18:22:05,445 | INFO | cmap pruned
+2026-10-26 18:22:05,446 | INFO | kern dropped
+2026-10-26 18:22:05,448 | INFO | post pruned
+2026-10-26 18:22:05,449 | INFO | FFTM dropped
+2026-10-26 18:22:05,453 | INFO | GPOS pruned
+2026-10-26 18:22:05,458 | INFO | GSUB pruned
+2026-10-26 18:22:05,469 | INFO | glyf pruned
+2026-10-26 18:22:05,471 | INFO | Added gid0 to subset
+2026-10-26 18:22:05,473 | INFO | Added first four glyphs to subset
+2026-10-26 18:22:05,475 | INFO | Closing glyph list over 'MATH': 49 glyphs before
+2026-10-26 18:22:05,476 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'zero']
+2026-10-26 18:22:05,479 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228]
+2026-10-26 18:22:05,481 | INFO | Closed glyph list over 'MATH': 55 glyphs after
+2026-10-26 18:22:05,482 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'zero']
+2026-10-26 18:22:05,483 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:22:05,484 | INFO | Closing glyph list over 'GSUB': 55 glyphs before
+2026-10-26 18:22:05,485 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'zero']
+2026-10-26 18:22:05,486 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:22:05,491 | INFO | Closed glyph list over 'GSUB': 55 glyphs after
+2026-10-26 18:22:05,493 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'zero']
+2026-10-26 18:22:05,494 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:22:05,495 | INFO | Closing glyph list over 'glyf': 55 glyphs before
+2026-10-26 18:22:05,495 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'zero']
+2026-10-26 18:22:05,496 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:22:05,497 | INFO | Closed glyph list over 'glyf': 55 glyphs after
+2026-10-26 18:22:05,498 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'minus', 'nine', 'nonmarkingreturn', 'o', 'one', 'parenleft', 'parenright', 'period', 'r', 'rho', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'zero']
+2026-10-26 18:22:05,499 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 54, 55, 59, 68, 72, 74, 75, 76, 79, 82, 85, 87, 853, 3228, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:22:05,501 | INFO | Retaining 55 glyphs
+2026-10-26 18:22:05,504 | INFO | head subsetting not needed
+2026-10-26 18:22:05,505 | INFO | hhea subsetting not needed
+2026-10-26 18:22:05,506 | INFO | maxp subsetting not needed
+2026-10-26 18:22:05,507 | INFO | OS/2 subsetting not needed
+2026-10-26 18:22:05,514 | INFO | hmtx subsetted
+2026-10-26 18:22:05,520 | INFO | cmap subsetted
+2026-10-26 18:22:05,521 | INFO | fpgm subsetting not needed
+2026-10-26 18:22:05,522 | INFO | prep subsetting not needed
+2026-10-26 18:22:05,522 | INFO | cvt  subsetting not needed
+2026-10-26 18:22:05,523 | INFO | loca subsetting not needed
+2026-10-26 18:22:05,525 | INFO | post subsetted
+2026-10-26 18:22:05,526 | INFO | gasp subsetting not needed
+2026-10-26 18:22:05,527 | INFO | MATH subsetted
+2026-10-26 18:22:05,530 | INFO | GDEF subsetted
+2026-10-26 18:22:05,550 | INFO | GPOS subsetted
+2026-10-26 18:22:05,552 | INFO | GSUB subsetted
+2026-10-26 18:22:05,554 | INFO | name subsetting not needed
+2026-10-26 18:22:05,557 | INFO | glyf subsetted
+2026-10-26 18:22:05,558 | INFO | head pruned
+2026-10-26 18:22:05,560 | INFO | OS/2 Unicode ranges pruned: [0, 7, 38]
+2026-10-26 18:22:05,562 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:22:05,564 | INFO | glyf pruned
+2026-10-26 18:22:05,566 | INFO | GDEF pruned
+2026-10-26 18:22:05,567 | INFO | GPOS pruned
+2026-10-26 18:22:05,568 | INFO | GSUB pruned
+2026-10-26 18:22:05,580 | INFO | name pruned
+2026-10-26 18:22:09,238 | INFO | figure  Fig3a_canonical_vs_other_program
+2026-10-26 18:22:10,273 | INFO | Signature classifier training cohort: BeatAML (176 canonical HOX-high)
+2026-10-26 18:22:10,909 | INFO | table   Table5b_signature_transfer_AUC.csv  (16, 5)
+2026-10-26 18:40:05,063 | INFO | table   Table6_GSEA_prerank_all.csv  (11010, 13)
+2026-10-26 18:40:08,522 | INFO | maxp pruned
+2026-10-26 18:40:08,537 | INFO | cmap pruned
+2026-10-26 18:40:08,538 | INFO | kern dropped
+2026-10-26 18:40:08,539 | INFO | post pruned
+2026-10-26 18:40:08,541 | INFO | FFTM dropped
+2026-10-26 18:40:08,546 | INFO | GPOS pruned
+2026-10-26 18:40:08,550 | INFO | GSUB pruned
+2026-10-26 18:40:08,558 | INFO | glyf pruned
+2026-10-26 18:40:08,560 | INFO | Added gid0 to subset
+2026-10-26 18:40:08,562 | INFO | Added first four glyphs to subset
+2026-10-26 18:40:08,562 | INFO | Closing glyph list over 'MATH': 71 glyphs before
+2026-10-26 18:40:08,564 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,567 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311]
+2026-10-26 18:40:08,570 | INFO | Closed glyph list over 'MATH': 77 glyphs after
+2026-10-26 18:40:08,571 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,573 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:08,575 | INFO | Closing glyph list over 'GSUB': 77 glyphs before
+2026-10-26 18:40:08,576 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,577 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:08,583 | INFO | Closed glyph list over 'GSUB': 82 glyphs after
+2026-10-26 18:40:08,584 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,586 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:08,588 | INFO | Closing glyph list over 'glyf': 82 glyphs before
+2026-10-26 18:40:08,589 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,590 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:08,592 | INFO | Closed glyph list over 'glyf': 82 glyphs after
+2026-10-26 18:40:08,593 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'X', 'a', 'b', 'c', 'd', 'e', 'eight', 'f', 'fi', 'five', 'fl', 'four', 'g', 'greater', 'greaterequal', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'less', 'lessequal', 'm', 'minus', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:08,597 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 59, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 3228, 3310, 3311, 3506, 3507, 3508, 3509, 3510, 3511, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:08,600 | INFO | Retaining 82 glyphs
+2026-10-26 18:40:08,602 | INFO | head subsetting not needed
+2026-10-26 18:40:08,605 | INFO | hhea subsetting not needed
+2026-10-26 18:40:08,606 | INFO | maxp subsetting not needed
+2026-10-26 18:40:08,607 | INFO | OS/2 subsetting not needed
+2026-10-26 18:40:08,612 | INFO | hmtx subsetted
+2026-10-26 18:40:08,616 | INFO | cmap subsetted
+2026-10-26 18:40:08,618 | INFO | fpgm subsetting not needed
+2026-10-26 18:40:08,618 | INFO | prep subsetting not needed
+2026-10-26 18:40:08,621 | INFO | cvt  subsetting not needed
+2026-10-26 18:40:08,621 | INFO | loca subsetting not needed
+2026-10-26 18:40:08,622 | INFO | post subsetted
+2026-10-26 18:40:08,624 | INFO | gasp subsetting not needed
+2026-10-26 18:40:08,627 | INFO | MATH subsetted
+2026-10-26 18:40:08,631 | INFO | GDEF subsetted
+2026-10-26 18:40:08,657 | INFO | GPOS subsetted
+2026-10-26 18:40:08,659 | INFO | GSUB subsetted
+2026-10-26 18:40:08,661 | INFO | name subsetting not needed
+2026-10-26 18:40:08,666 | INFO | glyf subsetted
+2026-10-26 18:40:08,667 | INFO | head pruned
+2026-10-26 18:40:08,668 | INFO | OS/2 Unicode ranges pruned: [0, 38]
+2026-10-26 18:40:08,669 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:40:08,670 | INFO | glyf pruned
+2026-10-26 18:40:08,671 | INFO | GDEF pruned
+2026-10-26 18:40:08,674 | INFO | GPOS pruned
+2026-10-26 18:40:08,675 | INFO | GSUB pruned
+2026-10-26 18:40:08,703 | INFO | name pruned
+2026-10-26 18:40:09,665 | INFO | figure  Fig4_Hallmark_GSEA_heatmap
+2026-10-26 18:40:14,054 | INFO | maxp pruned
+2026-10-26 18:40:14,069 | INFO | cmap pruned
+2026-10-26 18:40:14,070 | INFO | kern dropped
+2026-10-26 18:40:14,072 | INFO | post pruned
+2026-10-26 18:40:14,073 | INFO | FFTM dropped
+2026-10-26 18:40:14,077 | INFO | GPOS pruned
+2026-10-26 18:40:14,083 | INFO | GSUB pruned
+2026-10-26 18:40:14,089 | INFO | glyf pruned
+2026-10-26 18:40:14,091 | INFO | Added gid0 to subset
+2026-10-26 18:40:14,092 | INFO | Added first four glyphs to subset
+2026-10-26 18:40:14,093 | INFO | Closing glyph list over 'MATH': 47 glyphs before
+2026-10-26 18:40:14,094 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'w', 'zero']
+2026-10-26 18:40:14,097 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90]
+2026-10-26 18:40:14,099 | INFO | Closed glyph list over 'MATH': 53 glyphs after
+2026-10-26 18:40:14,101 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:14,102 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:14,103 | INFO | Closing glyph list over 'GSUB': 53 glyphs before
+2026-10-26 18:40:14,104 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:14,106 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:14,111 | INFO | Closed glyph list over 'GSUB': 53 glyphs after
+2026-10-26 18:40:14,113 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:14,114 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:14,115 | INFO | Closing glyph list over 'glyf': 53 glyphs before
+2026-10-26 18:40:14,116 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:14,117 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:14,119 | INFO | Closed glyph list over 'glyf': 53 glyphs after
+2026-10-26 18:40:14,120 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'E', 'G', 'H', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:14,121 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 40, 42, 43, 47, 48, 50, 51, 54, 55, 59, 66, 68, 72, 74, 75, 76, 78, 79, 81, 82, 83, 85, 86, 87, 90, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:14,123 | INFO | Retaining 53 glyphs
+2026-10-26 18:40:14,124 | INFO | head subsetting not needed
+2026-10-26 18:40:14,126 | INFO | hhea subsetting not needed
+2026-10-26 18:40:14,127 | INFO | maxp subsetting not needed
+2026-10-26 18:40:14,133 | INFO | OS/2 subsetting not needed
+2026-10-26 18:40:14,396 | INFO | hmtx subsetted
+2026-10-26 18:40:14,401 | INFO | cmap subsetted
+2026-10-26 18:40:14,403 | INFO | fpgm subsetting not needed
+2026-10-26 18:40:14,404 | INFO | prep subsetting not needed
+2026-10-26 18:40:14,406 | INFO | cvt  subsetting not needed
+2026-10-26 18:40:14,407 | INFO | loca subsetting not needed
+2026-10-26 18:40:14,408 | INFO | post subsetted
+2026-10-26 18:40:14,409 | INFO | gasp subsetting not needed
+2026-10-26 18:40:14,411 | INFO | MATH subsetted
+2026-10-26 18:40:14,415 | INFO | GDEF subsetted
+2026-10-26 18:40:14,439 | INFO | GPOS subsetted
+2026-10-26 18:40:14,443 | INFO | GSUB subsetted
+2026-10-26 18:40:14,445 | INFO | name subsetting not needed
+2026-10-26 18:40:14,450 | INFO | glyf subsetted
+2026-10-26 18:40:14,453 | INFO | head pruned
+2026-10-26 18:40:14,454 | INFO | OS/2 Unicode ranges pruned: [0]
+2026-10-26 18:40:14,457 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:40:14,458 | INFO | glyf pruned
+2026-10-26 18:40:14,459 | INFO | GDEF pruned
+2026-10-26 18:40:14,461 | INFO | GPOS pruned
+2026-10-26 18:40:14,463 | INFO | GSUB pruned
+2026-10-26 18:40:14,474 | INFO | name pruned
+2026-10-26 18:40:15,164 | INFO | figure  Fig7_KM_HOXhigh
+2026-10-26 18:40:15,847 | INFO | table   Table8_Cox_OS_HOXhigh.csv  (23, 11)
+2026-10-26 18:40:17,157 | INFO | table   Table9_CDK9_PTEFb_by_HOX.csv  (152, 11)
+2026-10-26 18:40:20,520 | INFO | maxp pruned
+2026-10-26 18:40:20,534 | INFO | cmap pruned
+2026-10-26 18:40:20,535 | INFO | kern dropped
+2026-10-26 18:40:20,536 | INFO | post pruned
+2026-10-26 18:40:20,538 | INFO | FFTM dropped
+2026-10-26 18:40:20,542 | INFO | GPOS pruned
+2026-10-26 18:40:20,545 | INFO | GSUB pruned
+2026-10-26 18:40:20,553 | INFO | glyf pruned
+2026-10-26 18:40:20,554 | INFO | Added gid0 to subset
+2026-10-26 18:40:20,556 | INFO | Added first four glyphs to subset
+2026-10-26 18:40:20,557 | INFO | Closing glyph list over 'MATH': 53 glyphs before
+2026-10-26 18:40:20,559 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'w', 'zero']
+2026-10-26 18:40:20,562 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809]
+2026-10-26 18:40:20,563 | INFO | Closed glyph list over 'MATH': 59 glyphs after
+2026-10-26 18:40:20,565 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:20,566 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:20,568 | INFO | Closing glyph list over 'GSUB': 59 glyphs before
+2026-10-26 18:40:20,569 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:20,570 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:20,575 | INFO | Closed glyph list over 'GSUB': 59 glyphs after
+2026-10-26 18:40:20,576 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:20,578 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:20,579 | INFO | Closing glyph list over 'glyf': 59 glyphs before
+2026-10-26 18:40:20,580 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:20,581 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:20,582 | INFO | Closed glyph list over 'glyf': 59 glyphs after
+2026-10-26 18:40:20,583 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'O', 'P', 'S', 'T', 'X', 'a', 'comma', 'd', 'e', 'eight', 'equal', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0394', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'w', 'zero']
+2026-10-26 18:40:20,584 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47, 48, 50, 51, 54, 55, 59, 66, 68, 71, 72, 74, 75, 76, 79, 81, 82, 83, 85, 86, 87, 88, 90, 809, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-26 18:40:20,586 | INFO | Retaining 59 glyphs
+2026-10-26 18:40:20,588 | INFO | head subsetting not needed
+2026-10-26 18:40:20,589 | INFO | hhea subsetting not needed
+2026-10-26 18:40:20,590 | INFO | maxp subsetting not needed
+2026-10-26 18:40:20,591 | INFO | OS/2 subsetting not needed
+2026-10-26 18:40:20,605 | INFO | hmtx subsetted
+2026-10-26 18:40:20,608 | INFO | cmap subsetted
+2026-10-26 18:40:20,609 | INFO | fpgm subsetting not needed
+2026-10-26 18:40:20,610 | INFO | prep subsetting not needed
+2026-10-26 18:40:20,611 | INFO | cvt  subsetting not needed
+2026-10-26 18:40:20,612 | INFO | loca subsetting not needed
+2026-10-26 18:40:20,613 | INFO | post subsetted
+2026-10-26 18:40:20,614 | INFO | gasp subsetting not needed
+2026-10-26 18:40:20,615 | INFO | MATH subsetted
+2026-10-26 18:40:20,618 | INFO | GDEF subsetted
+2026-10-26 18:40:20,639 | INFO | GPOS subsetted
+2026-10-26 18:40:20,641 | INFO | GSUB subsetted
+2026-10-26 18:40:20,642 | INFO | name subsetting not needed
+2026-10-26 18:40:20,648 | INFO | glyf subsetted
+2026-10-26 18:40:20,649 | INFO | head pruned
+2026-10-26 18:40:20,652 | INFO | OS/2 Unicode ranges pruned: [0, 7]
+2026-10-26 18:40:20,654 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:40:20,656 | INFO | glyf pruned
+2026-10-26 18:40:20,657 | INFO | GDEF pruned
+2026-10-26 18:40:20,658 | INFO | GPOS pruned
+2026-10-26 18:40:20,660 | INFO | GSUB pruned
+2026-10-26 18:40:20,673 | INFO | name pruned
+2026-10-26 18:40:21,618 | INFO | figure  Fig5_CDK9_HOXhigh
+2026-10-26 18:40:22,081 | INFO | BeatAML samples with both RNA-seq and drug AUC: 452
+2026-10-26 18:40:23,083 | INFO | table   BeatAML_AUC_matrix_matched.csv  (452, 165)
+2026-10-26 18:40:44,936 | INFO | table   Table7_BeatAML_CDK9i_and_positive_controls.csv  (10, 39)
+2026-10-26 18:40:45,669 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 18:40:45,675 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 18:40:50,034 | INFO | maxp pruned
+2026-10-26 18:40:50,049 | INFO | cmap pruned
+2026-10-26 18:40:50,050 | INFO | kern dropped
+2026-10-26 18:40:50,053 | INFO | post pruned
+2026-10-26 18:40:50,054 | INFO | FFTM dropped
+2026-10-26 18:40:50,058 | INFO | GPOS pruned
+2026-10-26 18:40:50,064 | INFO | GSUB pruned
+2026-10-26 18:40:50,071 | INFO | glyf pruned
+2026-10-26 18:40:50,073 | INFO | Added gid0 to subset
+2026-10-26 18:40:50,075 | INFO | Added first four glyphs to subset
+2026-10-26 18:40:50,076 | INFO | Closing glyph list over 'MATH': 67 glyphs before
+2026-10-26 18:40:50,076 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,079 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853]
+2026-10-26 18:40:50,081 | INFO | Closed glyph list over 'MATH': 79 glyphs after
+2026-10-26 18:40:50,083 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,084 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517]
+2026-10-26 18:40:50,085 | INFO | Closing glyph list over 'GSUB': 79 glyphs before
+2026-10-26 18:40:50,087 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,088 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517]
+2026-10-26 18:40:50,094 | INFO | Closed glyph list over 'GSUB': 84 glyphs after
+2026-10-26 18:40:50,095 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,098 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:50,100 | INFO | Closing glyph list over 'glyf': 84 glyphs before
+2026-10-26 18:40:50,101 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,103 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:50,105 | INFO | Closed glyph list over 'glyf': 84 glyphs after
+2026-10-26 18:40:50,106 | INFO | Glyph names: ['.notdef', '.null', 'A', 'B', 'C', 'D', 'F', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'X', 'Y', 'a', 'b', 'bracketleft', 'bracketright', 'c', 'colon', 'comma', 'd', 'delta', 'e', 'eight', 'equal', 'f', 'fi', 'five', 'fl', 'four', 'g', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'period', 'r', 'rho', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'uni23A1', 'uni23A2', 'uni23A3', 'uni23A4', 'uni23A5', 'uni23A6', 'uniFB00', 'uniFB03', 'uniFB04', 'v', 'w', 'x', 'y', 'zero']
+2026-10-26 18:40:50,108 | INFO | Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 36, 37, 38, 39, 41, 43, 44, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 59, 60, 62, 64, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 840, 853, 3506, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3514, 3515, 3516, 3517, 5038, 5039, 5040, 5041, 5042]
+2026-10-26 18:40:50,112 | INFO | Retaining 84 glyphs
+2026-10-26 18:40:50,114 | INFO | head subsetting not needed
+2026-10-26 18:40:50,116 | INFO | hhea subsetting not needed
+2026-10-26 18:40:50,118 | INFO | maxp subsetting not needed
+2026-10-26 18:40:50,119 | INFO | OS/2 subsetting not needed
+2026-10-26 18:40:50,126 | INFO | hmtx subsetted
+2026-10-26 18:40:50,129 | INFO | cmap subsetted
+2026-10-26 18:40:50,130 | INFO | fpgm subsetting not needed
+2026-10-26 18:40:50,131 | INFO | prep subsetting not needed
+2026-10-26 18:40:50,133 | INFO | cvt  subsetting not needed
+2026-10-26 18:40:50,134 | INFO | loca subsetting not needed
+2026-10-26 18:40:50,135 | INFO | post subsetted
+2026-10-26 18:40:50,136 | INFO | gasp subsetting not needed
+2026-10-26 18:40:50,137 | INFO | MATH subsetted
+2026-10-26 18:40:50,141 | INFO | GDEF subsetted
+2026-10-26 18:40:50,167 | INFO | GPOS subsetted
+2026-10-26 18:40:50,169 | INFO | GSUB subsetted
+2026-10-26 18:40:50,170 | INFO | name subsetting not needed
+2026-10-26 18:40:50,174 | INFO | glyf subsetted
+2026-10-26 18:40:50,176 | INFO | head pruned
+2026-10-26 18:40:50,178 | INFO | OS/2 Unicode ranges pruned: [0, 7]
+2026-10-26 18:40:50,179 | INFO | OS/2 CodePage ranges pruned: [0]
+2026-10-26 18:40:50,181 | INFO | glyf pruned
+2026-10-26 18:40:50,182 | INFO | GDEF pruned
+2026-10-26 18:40:50,184 | INFO | GPOS pruned
+2026-10-26 18:40:50,186 | INFO | GSUB pruned
+2026-10-26 18:40:50,207 | INFO | name pruned
+2026-10-26 18:40:51,221 | INFO | figure  Fig6_BeatAML_CDK9i_uncoupling
+2026-10-26 18:41:18,474 | INFO | AML lines: 54; CDK9 gene effect median AML=-1.51 vs all lines=-1.42
+2026-10-26 18:41:56,665 | INFO | table   Table10_cellline_CDK9_dependency_and_inhibitor_sensitivity.csv  (4, 8)
+2026-10-26 18:41:57,868 | INFO | table   Table11_robustness.csv  (60, 7)
+2026-10-26 18:42:33,772 | INFO | DONE. Everything is in /content/drive/MyDrive/Bengisu_HOX_AML  (archive: HOX_AML_outputs_20261026_1817.zip)

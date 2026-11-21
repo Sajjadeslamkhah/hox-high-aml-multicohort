@@ -1,0 +1,6 @@
+cohort,HOXA5,HOXA6,HOXA7,HOXA9,HOXA10,MEIS1,PBX3,CDK9,CCNT1,HEXIM1,median_log2,pct_missing
+TCGA,True,True,True,True,True,True,True,True,True,True,6.9697,0.0
+BeatAML,True,True,True,True,True,True,True,True,True,True,3.02877671443617,0.0
+GSE14468,True,True,True,True,True,True,True,True,True,True,5.255500733,0.0
+GSE37642_GPL96,True,True,True,True,True,True,True,True,True,True,7.48,0.0
+GSE37642_GPL570,True,True,True,True,True,True,True,True,True,True,7.22,0.0

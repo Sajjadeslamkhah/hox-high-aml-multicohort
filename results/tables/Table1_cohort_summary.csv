@@ -1,0 +1,6 @@
+,platform,role,n_samples,n_genes,Other,NPM1mut,KMT2Ar,genotype_missing,HOXlow_anchors,FLT3_ITD_known,OS_available,NPM1mut+KMT2Ar
+TCGA,RNA-seq,discovery,173,20530,115,48,9,1,33,173,173,
+BeatAML,RNA-seq,validation,591,22843,392,154,38,4,94,591,591,3
+GSE14468,GPL570,validation,461,24442,311,140,10,0,118,461,0,
+GSE37642_GPL96,GPL96,validation,422,14208,,,,422,33,0,417,
+GSE37642_GPL570,GPL570,validation,140,21290,,,,140,12,0,136,

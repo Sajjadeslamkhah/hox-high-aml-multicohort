@@ -1,0 +1,61 @@
+{
+  "HOX_CORE": [
+    "HOXA5",
+    "HOXA6",
+    "HOXA7",
+    "HOXA9",
+    "HOXA10",
+    "MEIS1",
+    "PBX3"
+  ],
+  "HOX_EXT": [
+    "HOXA3",
+    "HOXA4",
+    "HOXA11",
+    "HOXA-AS2",
+    "HOXA-AS3",
+    "HOTTIP",
+    "HOXB2",
+    "HOXB3",
+    "HOXB4",
+    "HOXB5",
+    "HOXB6",
+    "HOXB-AS3",
+    "MEIS1",
+    "PBX3",
+    "CDX2",
+    "MN1"
+  ],
+  "PTEFB": [
+    "CDK9",
+    "CCNT1",
+    "CCNT2",
+    "HEXIM1",
+    "HEXIM2",
+    "LARP7",
+    "MEPCE",
+    "AFF4",
+    "ELL2",
+    "BRD4",
+    "MLLT1",
+    "MLLT3"
+  ],
+  "CDK9_TARGETS": [
+    "MCL1",
+    "MYC",
+    "BCL2A1",
+    "XIAP",
+    "PIM1"
+  ],
+  "CDK9_INHIB_REGEX": "flavopiridol|alvocidib|SNS-?032|BMS-?387032|dinaciclib|AT-?7519|AZD-?4573|voruciclib|atuveciclib|BAY-?1143572|BAY-?1251152|enitociclib|VIP152|KB-?0742|fadraciclib|CYC065|NVP-?2|LDC000067|seliciclib|roscovitine|PHA-?767491|riviciclib|P276",
+  "POS_CTRL": {
+    "FLT3_ITD": "quizartinib|AC220|gilteritinib|crenolanib|sorafenib|midostaurin",
+    "NPM1": "venetoclax|ABT-?199"
+  },
+  "HOX_HIGH_METHOD": "anchored",
+  "ANCHOR_K_MAD": 3,
+  "MIN_ANCHORS": 15,
+  "MIN_GROUP_N": 10,
+  "FDR": 0.05,
+  "LFC_DE": 1.0
+}

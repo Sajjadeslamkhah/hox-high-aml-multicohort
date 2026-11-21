@@ -1,0 +1,32 @@
+# Raw data and large archives stay on Google Drive
+00_raw/
+data/raw/
+*.zip
+*.tar.gz
+*.gz
+*.h5
+*.h5ad
+*.rds
+*.parquet
+CRISPRGeneEffect.csv
+OmicsExpression*.csv
+Model.csv
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*.docx
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+credentials*.json
