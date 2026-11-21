@@ -76,6 +76,12 @@ do(T.insert_after, "add prognostic information to current genetic risk classific
    " This agrees with a recent HARMONY Alliance analysis of a large harmonized cohort, in which risk within *NPM1*-mutated "
    "AML was refined by combinations of co-mutations [87].")
 
+# ---------- Requested corrections (22 Nov 2026)
+do(T.replace, "pre-specified as five hypotheses before execution", "defined a priori as five hypotheses")
+do(T.replace, "Genotype was missing for 1 TCGA and 4 BeatAML patients.",
+   "Genotype was missing or unclassified for 1 TCGA and 4 BeatAML patients; subtype columns therefore sum to 172 of 173 "
+   "(TCGA) and 587 of 591 (BeatAML) patients.")
+
 # ---------- Author contributions typo
 do(T.replace, "manuscript. . B.O.", "manuscript. B.O.")
 
@@ -96,7 +102,7 @@ for term in ["ex vivo", "in vivo", "Hoxa9", "HoxA9", "Hoxa7", "Hoxa10", "Meis1a"
 new_rows = {"APL": "Acute promyelocytic leukemia", "BC": "Bimodality coefficient",
             "BeatAML": "Beat AML project (functional genomic landscape of AML)",
             "CRISPR": "Clustered regularly interspaced short palindromic repeats", "DepMap": "Cancer Dependency Map",
-            "GDSC": "Genomics of Drug Sensitivity in Cancer", "GMM": "Gaussian mixture model", "HOX": "Homeobox (genes)",
+            "GDSC": "Genomics of Drug Sensitivity in Cancer", "HOX": "Homeobox (genes)",
             "KEGG": "Kyoto Encyclopedia of Genes and Genomes", "MCL-1": "Myeloid cell leukemia 1 (protein)",
             "MLL": "Mixed-lineage leukemia (former name of KMT2A)", "MSigDB": "Molecular Signatures Database",
             "NA": "Not available", "RNA-seq": "RNA sequencing", "RSEM": "RNA-Seq by Expectation-Maximization",

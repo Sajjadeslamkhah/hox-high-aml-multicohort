@@ -110,8 +110,8 @@ point(d, 2,
       "BetAML CRISPR, DepMap, cBioPortal application, GSEApy, Python, HOVON/SAKK protocol, etc.). This makes it look "
       "like a coded document. There is no mention of the program type or the version used. Not everyone uses the same "
       "programs, but they would like to know which ones were used.",
-      ["Thank you. We have checked every abbreviation in the text. We added 18 entries to the Abbreviations table: "
-       "APL, BC, BeatAML, CRISPR, DepMap, GDSC, GMM, HOX, KEGG, MCL-1, MLL, MSigDB, NA, RNA-seq, RSEM, SAKK, TPM "
+      ["Thank you. We have checked every abbreviation in the text. We added 17 entries to the Abbreviations table: "
+       "APL, BC, BeatAML, CRISPR, DepMap, GDSC, HOX, KEGG, MCL-1, MLL, MSigDB, NA, RNA-seq, RSEM, SAKK, TPM "
        "and UCSC. We also spelled out the resources at first use: Beat AML project (BeatAML), Cancer Dependency Map "
        "(DepMap), University of California Santa Cruz (UCSC) Xena, cBioPortal for Cancer Genomics, and Dutch–Belgian "
        "Hemato-Oncology Cooperative Group/Swiss Group for Clinical Cancer Research (HOVON/SAKK). GSEApy and Python "

@@ -35,7 +35,7 @@ for j, (k, lab) in enumerate(C):
     else:
         pass
     n_hi, n = int((d.HOX_group == "HOX-high").sum()), len(d)
-    gmm = "" if pd.notna(thr) else "; GMM split"
+    gmm = "" if pd.notna(thr) else "; mixture-model split"
     ax.set_title(f"{lab}\n{n_hi}/{n} HOX-high ({100 * n_hi / n:.0f}%){gmm}", fontsize=10)
     ax.set_xlabel("HOX score (mean z)")
     ax.set_yticks([t for t in ax.get_yticks() if 0 <= t <= ymax])
