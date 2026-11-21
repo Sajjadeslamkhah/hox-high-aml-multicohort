@@ -3,7 +3,7 @@ Usage: python make_responses.py <out_dir> [r2_fig5_json]"""
 import sys, os, json
 from docx import Document
 from docx.shared import Pt, RGBColor, Cm
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_COLOR_INDEX
 
 out = sys.argv[1]
 R2 = json.load(open(sys.argv[2], encoding="utf8")) if len(sys.argv) > 2 and os.path.exists(sys.argv[2]) else None
@@ -120,7 +120,7 @@ point(d, 2,
        "The data releases were already specified and are unchanged: DepMap Public 25Q2, BeatAML 2.0 (waves 1–4), "
        "the cBioPortal study identifiers, and the GEO accessions. The full package list of each run is saved "
        "automatically and is available on request together with the code."],
-      [("Section 2.12", "Analyses were run in {PYVER} on Google Colaboratory with pandas 2.2.3, NumPy 2.1.3, SciPy 1.16.3, "
+      [("Section 2.12", "Analyses were run in Python 3 on Google Colaboratory with pandas 2.2.3, NumPy 2.1.3, SciPy 1.16.3, "
         "statsmodels 0.15.0, scikit-learn 1.6.1, lifelines 0.30.3, GSEApy 1.3.1, GEOparse 2.0.4, matplotlib 3.10.0 and "
         "seaborn 0.13.2; the complete list of package versions was saved with each run.")])
 
