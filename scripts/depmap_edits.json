@@ -1,0 +1,13 @@
+[["53 lines, of which 28 had CRISPR data); six non-myeloid models captured by an initial, broader filter were removed before analysis.", "54 lines, of which 29 had CRISPR data); lines were selected by an exact match of the DepMap primary-disease annotation."],
+ ["(median split of the HOX score among the 53 AML lines)", "(median split of the HOX score among the 54 AML lines)"],
+ ["−1.50 (range", "−1.51 (range"],
+ ["27 of 28 lines (96.4%)", "28 of 29 lines (96.6%)"],
+ ["(ρ = 0.025; P = 0.90)", "(ρ = 0.092; P = 0.64)"],
+ ["(ρ = −0.137; P = 0.49)", "(ρ = −0.141; P = 0.47)"],
+ ["(n = 15; median −1.51)", "(n = 16; median −1.55)"],
+ ["(P = 0.85)", "(P = 0.68)"],
+ ["(ρ = 0.25; P = 0.066; n = 53)", "(ρ = 0.24; P = 0.075; n = 54)"],
+ ["these 28 lines", "these 29 lines"],
+ ["(n = 28)", "(n = 29)"],
+ ["across the 53 AML lines", "across the 54 AML lines"],
+ ["only 28 lines with CRISPR data", "only 29 lines with CRISPR data"]]
